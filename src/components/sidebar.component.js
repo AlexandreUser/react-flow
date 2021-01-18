@@ -11,7 +11,7 @@ export default (props) => {
   };
   return (<>
     {props.selected === 1 && <>
-    <div className="description">This is just a proof of concept, if you find a bug or issue, you can report at    <a href="https://github.com/AlexandreUser"> my Github</a>
+    <div className="description">This is just a proof of concept, if you find a bug or issue, you can report at    <a href="https://github.com/AlexandreUser/react-flow"> my Github</a>
  </div>
     <DashboardDougnut/>
     </>
