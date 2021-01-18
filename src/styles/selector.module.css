@@ -1,0 +1,102 @@
+.mainContainer{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+.buttonContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.initialButton{
+    background-color: white;
+    border: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 33%;
+    height: 50px;
+}
+.lastButton{
+    background-color: white;
+    border: 1px solid gray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 33%;
+    height: 50px;
+}
+.midButton{
+    background-color: white;
+    border: 1px solid gray;
+  
+    width: 22%;
+    height: 50px;
+}
+.initialButtonSelected{
+    background-color: white;
+    border: 2px solid gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 33%;
+    height: 50px;
+    text-decoration: underline;
+}
+.lastButtonSelected{
+    background-color: white;
+    border: 2px solid gray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 33%;
+    height: 50px;
+    text-decoration: underline;
+
+}
+.tabsContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.searchInput{
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border: 1px solid gray;
+}
+.inputContainer{
+    margin-left: 30px;
+    margin-right: 0px;
+    width: 35%;
+    display: flex;
+}
+.searchImage{
+    width: 25px;
+    height: 25px;
+}
+.buttonHolder{
+    width: 20%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid gray;
+}
+@media only screen and (max-width: 700px) {
+    .buttonContainer{
+        width: 100%;
+    }
+    .buttonHolder{
+        width: 50%;
+    }
+    .midButton{
+        font-size: 12px;
+    }
+    .initialButton{
+        font-size: 12px;
+    }
+    .initialButtonSelected{
+        font-size: 12px;
+    }
+    .lastButton{
+        font-size: 12px;
+    }
+}

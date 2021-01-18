@@ -1,0 +1,20 @@
+.mainContainer{
+    width: 80%;
+    margin-left: 10%;
+    max-height: 200px;
+}
+.buttonRandom{
+    margin-top: 20px;
+    background-color: #343a40!important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+@media only screen and (max-width: 700px) {
+    
+    .mainContainer{
+        margin-bottom: 100px;
+    }
+}
